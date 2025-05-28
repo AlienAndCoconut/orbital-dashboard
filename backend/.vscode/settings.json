@@ -1,0 +1,3 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python" // For VScode to point to the virtual environment
+}
