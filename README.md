@@ -2,7 +2,7 @@
 
 In this project I manage to implement everything except the ability to sort two columns at once on the table due to the time constraint. In terms of how I went about my decision:
 
-1. I used FastAPI for the backend because its lightweight and fast to setup. I put more emphasis on the backend because we had to do a lot of calculation for the cost of each message. It's important the calculation is correct, otherwise I could imagine we charge the users wrongly. I added a few unit tests to ensure the credits used calculation is accurate.
+1. I used FastAPI for the backend because its lightweight, fast to setup and supports pydantic for model validation. I put more emphasis on the backend because we had to do a lot of calculation for the cost of each message. It's important the calculation is correct, otherwise I could imagine we charge the users wrongly. I added a few unit tests to ensure the credits used calculation is accurate.
 2. For the frontend I used vite (build tool) to quickly create a React+Typescript template. The main focus is to quickly create the UI with two core components. I used the Material UI library to help create the bar graph and table since I am familiar with this library.
 
 ![alt text](screenshot.png)
